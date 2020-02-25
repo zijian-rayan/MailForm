@@ -108,24 +108,24 @@ namespace MailForm
             this.panelTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelTop.Location = new System.Drawing.Point(0, 0);
             this.panelTop.Name = "panelTop";
-            this.panelTop.Size = new System.Drawing.Size(1024, 69);
+            this.panelTop.Size = new System.Drawing.Size(1024, 89);
             this.panelTop.TabIndex = 0;
             // 
             // totalMessagesTextBox
             // 
             this.totalMessagesTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.totalMessagesTextBox.Location = new System.Drawing.Point(848, 30);
+            this.totalMessagesTextBox.Location = new System.Drawing.Point(1131, 39);
             this.totalMessagesTextBox.Name = "totalMessagesTextBox";
-            this.totalMessagesTextBox.Size = new System.Drawing.Size(120, 21);
+            this.totalMessagesTextBox.Size = new System.Drawing.Size(160, 25);
             this.totalMessagesTextBox.TabIndex = 7;
             // 
             // labelTotalMessages
             // 
             this.labelTotalMessages.Font = new System.Drawing.Font("ËÎÌו", 12F);
             this.labelTotalMessages.ForeColor = System.Drawing.Color.Transparent;
-            this.labelTotalMessages.Location = new System.Drawing.Point(845, 5);
+            this.labelTotalMessages.Location = new System.Drawing.Point(1127, 6);
             this.labelTotalMessages.Name = "labelTotalMessages";
-            this.labelTotalMessages.Size = new System.Drawing.Size(120, 22);
+            this.labelTotalMessages.Size = new System.Drawing.Size(160, 29);
             this.labelTotalMessages.TabIndex = 9;
             this.labelTotalMessages.Text = "Total Messages";
             // 
@@ -133,36 +133,36 @@ namespace MailForm
             // 
             this.labelPassword.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold);
             this.labelPassword.ForeColor = System.Drawing.Color.Transparent;
-            this.labelPassword.Location = new System.Drawing.Point(336, 35);
+            this.labelPassword.Location = new System.Drawing.Point(448, 45);
             this.labelPassword.Name = "labelPassword";
-            this.labelPassword.Size = new System.Drawing.Size(106, 25);
+            this.labelPassword.Size = new System.Drawing.Size(141, 32);
             this.labelPassword.TabIndex = 8;
             this.labelPassword.Text = "Password";
             // 
             // passwordTextBox
             // 
-            this.passwordTextBox.Location = new System.Drawing.Point(448, 39);
+            this.passwordTextBox.Location = new System.Drawing.Point(597, 50);
             this.passwordTextBox.Name = "passwordTextBox";
             this.passwordTextBox.PasswordChar = '*';
-            this.passwordTextBox.Size = new System.Drawing.Size(154, 21);
+            this.passwordTextBox.Size = new System.Drawing.Size(206, 25);
             this.passwordTextBox.TabIndex = 2;
-            this.passwordTextBox.Text = "03010023cw";
+            this.passwordTextBox.Text = "**********";
             // 
             // labelUsername
             // 
             this.labelUsername.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelUsername.ForeColor = System.Drawing.Color.Transparent;
-            this.labelUsername.Location = new System.Drawing.Point(331, 5);
+            this.labelUsername.Location = new System.Drawing.Point(441, 6);
             this.labelUsername.Name = "labelUsername";
-            this.labelUsername.Size = new System.Drawing.Size(111, 25);
+            this.labelUsername.Size = new System.Drawing.Size(148, 33);
             this.labelUsername.TabIndex = 6;
             this.labelUsername.Text = "Username";
             // 
             // loginTextBox
             // 
-            this.loginTextBox.Location = new System.Drawing.Point(448, 9);
+            this.loginTextBox.Location = new System.Drawing.Point(597, 12);
             this.loginTextBox.Name = "loginTextBox";
-            this.loginTextBox.Size = new System.Drawing.Size(154, 21);
+            this.loginTextBox.Size = new System.Drawing.Size(206, 25);
             this.loginTextBox.TabIndex = 1;
             this.loginTextBox.Text = "zijian-wu@outlook.com";
             // 
@@ -172,9 +172,9 @@ namespace MailForm
             this.connectAndRetrieveButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("connectAndRetrieveButton.BackgroundImage")));
             this.connectAndRetrieveButton.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.connectAndRetrieveButton.ForeColor = System.Drawing.Color.White;
-            this.connectAndRetrieveButton.Location = new System.Drawing.Point(670, 5);
+            this.connectAndRetrieveButton.Location = new System.Drawing.Point(893, 6);
             this.connectAndRetrieveButton.Name = "connectAndRetrieveButton";
-            this.connectAndRetrieveButton.Size = new System.Drawing.Size(141, 59);
+            this.connectAndRetrieveButton.Size = new System.Drawing.Size(188, 76);
             this.connectAndRetrieveButton.TabIndex = 5;
             this.connectAndRetrieveButton.Text = "Connect";
             this.connectAndRetrieveButton.UseVisualStyleBackColor = false;
@@ -184,17 +184,17 @@ namespace MailForm
             // 
             this.labelServerPort.Font = new System.Drawing.Font("Brush Script MT", 15.75F, System.Drawing.FontStyle.Italic);
             this.labelServerPort.ForeColor = System.Drawing.Color.Transparent;
-            this.labelServerPort.Location = new System.Drawing.Point(91, 42);
+            this.labelServerPort.Location = new System.Drawing.Point(121, 54);
             this.labelServerPort.Name = "labelServerPort";
-            this.labelServerPort.Size = new System.Drawing.Size(63, 25);
+            this.labelServerPort.Size = new System.Drawing.Size(84, 32);
             this.labelServerPort.TabIndex = 3;
             this.labelServerPort.Text = "Port";
             // 
             // portTextBox
             // 
-            this.portTextBox.Location = new System.Drawing.Point(154, 42);
+            this.portTextBox.Location = new System.Drawing.Point(205, 54);
             this.portTextBox.Name = "portTextBox";
-            this.portTextBox.Size = new System.Drawing.Size(154, 21);
+            this.portTextBox.Size = new System.Drawing.Size(206, 25);
             this.portTextBox.TabIndex = 3;
             this.portTextBox.Text = "995";
             // 
@@ -202,18 +202,18 @@ namespace MailForm
             // 
             this.labelServerAddress.Font = new System.Drawing.Font("Brush Script MT", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelServerAddress.ForeColor = System.Drawing.Color.Transparent;
-            this.labelServerAddress.Location = new System.Drawing.Point(86, 11);
+            this.labelServerAddress.Location = new System.Drawing.Point(115, 14);
             this.labelServerAddress.Name = "labelServerAddress";
-            this.labelServerAddress.Size = new System.Drawing.Size(54, 25);
+            this.labelServerAddress.Size = new System.Drawing.Size(72, 32);
             this.labelServerAddress.TabIndex = 1;
             this.labelServerAddress.Text = "POP";
             // 
             // popServerTextBox
             // 
-            this.popServerTextBox.Location = new System.Drawing.Point(154, 9);
+            this.popServerTextBox.Location = new System.Drawing.Point(205, 12);
             this.popServerTextBox.Name = "popServerTextBox";
             this.popServerTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
-            this.popServerTextBox.Size = new System.Drawing.Size(154, 21);
+            this.popServerTextBox.Size = new System.Drawing.Size(206, 25);
             this.popServerTextBox.TabIndex = 0;
             this.popServerTextBox.Text = "outlook.office365.com";
             // 
@@ -243,49 +243,49 @@ namespace MailForm
             // 
             this.gridHeaders.DataMember = "";
             this.gridHeaders.HeaderForeColor = System.Drawing.SystemColors.ControlText;
-            this.gridHeaders.Location = new System.Drawing.Point(728, 288);
+            this.gridHeaders.Location = new System.Drawing.Point(971, 370);
             this.gridHeaders.Margin = new System.Windows.Forms.Padding(0);
             this.gridHeaders.Name = "gridHeaders";
             this.gridHeaders.PreferredColumnWidth = 110;
             this.gridHeaders.ReadOnly = true;
-            this.gridHeaders.Size = new System.Drawing.Size(277, 206);
+            this.gridHeaders.Size = new System.Drawing.Size(369, 265);
             this.gridHeaders.TabIndex = 3;
             // 
             // listMessages
             // 
             this.listMessages.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.listMessages.ContextMenu = this.contextMenuMessages;
-            this.listMessages.Location = new System.Drawing.Point(0, 94);
+            this.listMessages.Location = new System.Drawing.Point(0, 121);
             this.listMessages.Name = "listMessages";
-            this.listMessages.Size = new System.Drawing.Size(363, 400);
+            this.listMessages.Size = new System.Drawing.Size(484, 514);
             this.listMessages.TabIndex = 8;
             this.listMessages.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.ListMessagesMessageSelected);
             // 
             // listAttachments
             // 
             this.listAttachments.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.listAttachments.Location = new System.Drawing.Point(730, 94);
+            this.listAttachments.Location = new System.Drawing.Point(973, 121);
             this.listAttachments.Name = "listAttachments";
             this.listAttachments.ShowLines = false;
             this.listAttachments.ShowRootLines = false;
-            this.listAttachments.Size = new System.Drawing.Size(275, 191);
+            this.listAttachments.Size = new System.Drawing.Size(367, 245);
             this.listAttachments.TabIndex = 10;
             this.listAttachments.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.ListAttachmentsAttachmentSelected);
             // 
             // messageTextBox
             // 
             this.messageTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.messageTextBox.Location = new System.Drawing.Point(368, 94);
+            this.messageTextBox.Location = new System.Drawing.Point(491, 121);
             this.messageTextBox.MaxLength = 999999999;
             this.messageTextBox.Multiline = true;
             this.messageTextBox.Name = "messageTextBox";
             this.messageTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.messageTextBox.Size = new System.Drawing.Size(358, 400);
+            this.messageTextBox.Size = new System.Drawing.Size(477, 514);
             this.messageTextBox.TabIndex = 9;
             // 
             // TestForm
             // 
-            this.AutoScaleBaseSize = new System.Drawing.Size(6, 14);
+            this.AutoScaleBaseSize = new System.Drawing.Size(8, 18);
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1024, 581);
             this.Controls.Add(this.gridHeaders);

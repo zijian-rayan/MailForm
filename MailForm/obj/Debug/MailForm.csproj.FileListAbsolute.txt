@@ -19,3 +19,15 @@ D:\Google\ET5\DNET\MailForm\MailForm\obj\Debug\MailForm.exe
 D:\Google\ET5\DNET\MailForm\MailForm\obj\Debug\MailForm.pdb
 D:\Google\ET5\DNET\MailForm\MailForm\obj\Debug\MailForm.TestForm.resources
 D:\Google\ET5\DNET\MailForm\MailForm\obj\Debug\MailForm.csprojAssemblyReference.cache
+D:\巴黎\ET5\DNET\MailForm\MailForm\bin\Debug\MailForm.exe.config
+D:\巴黎\ET5\DNET\MailForm\MailForm\bin\Debug\MailForm.exe
+D:\巴黎\ET5\DNET\MailForm\MailForm\bin\Debug\MailForm.pdb
+D:\巴黎\ET5\DNET\MailForm\MailForm\obj\Debug\MailForm.csprojAssemblyReference.cache
+D:\巴黎\ET5\DNET\MailForm\MailForm\obj\Debug\MailForm.receive_test_1.resources
+D:\巴黎\ET5\DNET\MailForm\MailForm\obj\Debug\MailForm.Form1.resources
+D:\巴黎\ET5\DNET\MailForm\MailForm\obj\Debug\MailForm.MainForm.resources
+D:\巴黎\ET5\DNET\MailForm\MailForm\obj\Debug\MailForm.Properties.Resources.resources
+D:\巴黎\ET5\DNET\MailForm\MailForm\obj\Debug\MailForm.TestForm.resources
+D:\巴黎\ET5\DNET\MailForm\MailForm\obj\Debug\MailForm.csproj.GenerateResource.cache
+D:\巴黎\ET5\DNET\MailForm\MailForm\obj\Debug\MailForm.exe
+D:\巴黎\ET5\DNET\MailForm\MailForm\obj\Debug\MailForm.pdb

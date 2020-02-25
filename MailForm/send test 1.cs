@@ -71,7 +71,7 @@ namespace MailForm
 
         private void send_Click(object sender, EventArgs e)
         {
-            int mesAge = SendEmail(fromt.Text, passwordt.Text, tot.Text, titlet.Text, contentt.Text, "smtp.qq.com");
+            int mesAge = SendEmail(fromt.Text, passwordt.Text, tot.Text, titlet.Text, contentt.Text,/* "smtp.office365.com"*/ "smtp.qq.com");
             if (mesAge == 1)
                 MessageBox.Show("succeed！");
             else
