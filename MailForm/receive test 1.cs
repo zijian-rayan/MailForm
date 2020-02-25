@@ -27,15 +27,15 @@ namespace MailForm
         {
             POP3 test = new POP3("pop.qq.com", "1985593610@qq.com", "gxxpylplzpelbaeb");
             int newmsg = test.GetNumberOfNewMessages();
-            //MessageBox.Show("succeed！" + newmsg);
-
+            MessageBox.Show("succeed！your nomber of new message is: " + newmsg);
+            total.Text = newmsg + "new messages in total";
             //+++++++++++++++++++++++++++++++
-            POP3 DemoClient = test;
+            //POP3 DemoClient = test;
             //DemoClient.Connect();
 
-            total.Text = newmsg + " messages in total";
+            
             int downloadNumberOfEmails;
-            int maxDownloadEmails = 5;
+            int maxDownloadEmails = 1;
             int numberOfMailsInMailbox = newmsg;
             if (numberOfMailsInMailbox < maxDownloadEmails)
             {
@@ -50,16 +50,16 @@ namespace MailForm
             for (int i = 1; i <= downloadNumberOfEmails; i++)
             {
                 //item.SubItems.Add(i + "=n");
-                MailMessage mm = DemoClient.GetNewMessages(0);
+                MailMessage mm = test.GetNewMessages(0);
                 //DemoClient.GetEmail(i, out mm);
                 if (mm != null)
                 {
                    
                     item.SubItems.Add(mm.From.ToString());//send add
                     item.SubItems.Add(mm.Subject);//subj
-                    item.SubItems.Add(mm.Body.Length.ToString());//length
-                    item.SubItems.Add(mm.Body);//body
-                    item.SubItems.Add(mm.To.ToString());//to
+                    //item.SubItems.Add(mm.Body.Length.ToString());//length
+                    //item.SubItems.Add(mm.Body);//body
+                    //item.SubItems.Add(mm.To.ToString());//to
                     //title.Items.Add(item);//renew
                 }
 

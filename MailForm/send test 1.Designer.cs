@@ -232,7 +232,7 @@
             this.Controls.Add(this.send);
             this.Controls.Add(this.CONTENT);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "MailBox Send Test1 ";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);

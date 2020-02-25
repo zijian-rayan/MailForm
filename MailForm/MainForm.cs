@@ -26,7 +26,9 @@ namespace MailForm
         private void Log_Click(object sender, EventArgs e)
         {
             Form f2 = new receive_test_1();
-            f2.Show();
+            Form f3 = new TestForm();
+            f3.Show();
+            //Application.Run(new TestForm());
         }
     }
 }
