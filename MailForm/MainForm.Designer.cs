@@ -44,7 +44,7 @@
             this.passwordt.Name = "passwordt";
             this.passwordt.Size = new System.Drawing.Size(227, 21);
             this.passwordt.TabIndex = 7;
-            this.passwordt.Text = "svocwwgaclcfdafd";
+            this.passwordt.Text = "****************";
             this.passwordt.UseSystemPasswordChar = true;
             // 
             // PASSWORD
